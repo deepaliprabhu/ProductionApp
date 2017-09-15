@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>BLRH-01</string>
+		<key>name</key>
+		<string>Solder Side Checking</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-02</string>
+		<key>name</key>
+		<string>Board Flashing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-03</string>
+		<key>name</key>
+		<string>Board Soldering</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-04</string>
+		<key>name</key>
+		<string>Probe Soldering</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-05</string>
+		<key>name</key>
+		<string>Probe Checking</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-06</string>
+		<key>name</key>
+		<string>Holder Mounting</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-07</string>
+		<key>name</key>
+		<string>Switch Cover Mounting</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-08</string>
+		<key>name</key>
+		<string>Switch Cover Mounting</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-09</string>
+		<key>name</key>
+		<string>Holder Glueing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-10</string>
+		<key>name</key>
+		<string>Rubber Cap Glueing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-11</string>
+		<key>name</key>
+		<string>Potting</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-12</string>
+		<key>name</key>
+		<string>Moulding</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-13</string>
+		<key>name</key>
+		<string>Flash Removal</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-14</string>
+		<key>name</key>
+		<string>Testing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-15</string>
+		<key>name</key>
+		<string>Cleaning</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>BLRH-16</string>
+		<key>name</key>
+		<string>Final Assembly</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+</array>
+</plist>

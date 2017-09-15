@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-01</string>
+		<key>name</key>
+		<string>Crimping</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-02</string>
+		<key>name</key>
+		<string>PCB Soldering</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-03</string>
+		<key>name</key>
+		<string>Probe Testing(Before Moulding)</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-04</string>
+		<key>name</key>
+		<string>Probe Tying</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-05</string>
+		<key>name</key>
+		<string>Moulding</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-06</string>
+		<key>name</key>
+		<string>Deburring</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-07</string>
+		<key>name</key>
+		<string>Mould Inspection</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-08</string>
+		<key>name</key>
+		<string>Final Probe Testing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-09</string>
+		<key>name</key>
+		<string>Winding</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>DBBQ-10</string>
+		<key>name</key>
+		<string>Packing</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take top enclosure with button holes</string>
+			<string>Enlarge the existing holes on top enclosure to diameters 7.8mm and 2.5mm</string>
+		</array>
+	</dict>
+</array>
+</plist>

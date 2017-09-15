@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>101</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Inward Inspection</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>operator</key>
+		<string>Archana</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check with a magnifying glass or Microscope for short solder, dry solder, Not Solder, Not Component, Shift component, Wrong polarity .Make sure soldering is done fine.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>102</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Flashing</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Connect flashing fixture with computer system.</string>
+			<string>Select Sentinel Next flashing file  from the program folder.</string>
+			<string>Load PCB in fixture, select flashbat file from the Flashing folder and double click, wait for completion of Flashing.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>103</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>LED Blink Testing</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take  flashed PCB, Hook battery and daughter board with PCB.</string>
+			<string>Ensure that LED  blink RED, GREEN, BLUE , RED and YELLOW in sequence. Red, Blue, and Green are On-Off LED and  Red and Yellow are  charging LEDs. </string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>104</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Current Testing</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take PCB and connect daughter board.</string>
+			<string>Connect the digital multimeter in series with battery in current mode. Make sure the multimeter probe (Black- Ground And Red- mA) is connected.</string>
+			<string>Check Current - Select Multimeter on mA. when  unit is Off-0mA, When button is pressed-below 16mA and when button is released -below 80mA.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>105</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>PCB Probe Testing</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take this PCB , connect battery and daughter board.</string>
+			<string>Switch on Sentinel Next unit and also turn on the ipod</string>
+			<string>Open settings of ipod and select the iCelsius wireless unit ID from wifi list.</string>
+			<string>Open iCelsius app and Connect Dual Probe ,check temperature. Make sure that when you heating the one probe then only increase the tempreture of that probe. Connect RH probe and check temperature and humidity (Below 100%).</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>201</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Module Testing</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>operator</key>
+		<string>Arvind</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Select the connectivity of (Diode) Probe.</string>
+			<string>Check the module pin shorts one by one.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>202</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>DaughterBoard Testing</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>operator</key>
+		<string>Govind</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take one PCB which is connected to the battery and hook daughter board.</string>
+			<string>Press On/Off button and check blinks in Red, Green, and Blue Color.</string>
+			<string>Connect charging cable and check manualy the RED charging LED.</string>
+			<string>Full charged bbattery connect charging USB cable again and test the charging LED it should be Yellow.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>203</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Daughter Board Button Insert and Test</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Govind</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take  top enclosure of iCelsius wireless with a labeled sticker.</string>
+			<string>Before inserting button,remove the burr on the outer side of that button.</string>
+			<string>Insert two spacer button in the required position.</string>
+			<string>Fix the daughter board in six stand over the spacer button.</string>
+			<string>Test the On/Off positions of unit buttons.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>204</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Daughter Board Fitting By Thermal Element</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>operator</key>
+		<string>Govind</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Fit the rivetting tool with the solder gun.</string>
+			<string>Set temperature near about 300C and melt the six stand where daughter board is placed.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>301</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Pre Bottom Check</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check the printing on  bottom. Aginova logo, Company name should be properly printed.</string>
+			<string>Bottom should be without any scratches,dents etc.
+Ensure printing on both enclosures is readable.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>302</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Sticking Stickers and Foam on Bottom.</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Pranali</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take Sentinel Next bottom. Check locking studs of bottom. Take  bottom sticker and stick the stickers on the inner side of that bottom.</string>
+			<string>Stick the Foam tape of 6mm(Below Aginova sticker or on battery), 4mm( Above Aginova Sticker or On PCB). </string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>303</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Unit Assembly</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>operator</key>
+		<string>Ram</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Connect the battery with PCB board, Take a top enclosure with fixed daughter board and  Fix a board and  adjust its wire assemble in  top enclosure.</string>
+			<string>Take a bottom enclosure  with  sticker and foams and Fix it in Top enclosure.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>401</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Unit Print Check</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check the printing on  bottom. Aginova logo, Company name should be properly printed.</string>
+			<string>Bottom should be without any scratches,dents etc.
+Ensure printing on both enclosures is readable.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>402</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Unit Fitting Check</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check fitment of Top and Bottom .</string>
+			<string>Press the four corners and check if its perfectly locked.</string>
+			<string>Also observe the slots of probe and charger.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>403</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Unit Application Check</string>
+		<key>time</key>
+		<string>1.5</string>
+		<key>points</key>
+		<string>3</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Switch on the  sensor unit. Check if Green LED is blinking when we switch on the unit.</string>
+			<string>Switch on ipod ,go to settings and select this particular unit from available wifi list .</string>
+			<string>Open Sentinel Next/ iCelsius App.</string>
+			<string>Check Battery status.Voltage must be below 4.2 Volt on app.</string>
+			<string>Connect probe to unit check its temperature on app.</string>
+			<string>Put the probe sensor in hot water and observe the rise in temperature.</string>
+			<string>Check for humidity (below 100%) by connecting any RH probe.</string>
+			<string>Check if Red LED blinks when charger is connected.</string>
+			<string>Red LED blinks for 3-4 secs when power button is pressed.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>501</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Reconfiguring Unit</string>
+		<key>time</key>
+		<string>3</string>
+		<key>points</key>
+		<string>6</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take ID and Key from Elizabeth and print it.</string>
+			<string> Turn on Unit. Turn on the iPod and open the iCelsius config App. </string>
+			<string>Connect iCelsius Unit with App.</string>
+			<string>Check its temp. and write down its MAC ID.</string>
+			<string>Select corresponding files and serials of ID or manually enter them</string>
+			<string>Click on Reconfigure and check reconfiguration completed or not by opening I pod Setting.</string>
+			<string>Check ID which is connected. Stick ID and key on bottom enclosure of the unit.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>502</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Unit Cleaning</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Clean unit by using IPA with damp cloth to remove dust/fingerprints/other marks on enclosure.</string>
+			<string>Put the unit in a plain transfrent bag &amp; place it in tray.</string>
+			<string>Be careful that printed (logo or Symbol) should not be removed while cleaning.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>502</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Unit Packing</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take cleaned Sentinel next unit.</string>
+			<string>Put in a plastic bag and fold it well.</string>
+			<string>Apply rubber band on it.</string>
+			<string>Apply  tape at all joints.</string>
+			<string>Stick same ID (Which is stuck on bottom enclosure) on unit box.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>503</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Final Packing</string>
+		<key>time</key>
+		<string>30</string>
+		<key>points</key>
+		<string>60</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take Batch Box and packed units.</string>
+			<string>Insert the packed units into the batch box.</string>
+			<string>Apply Brown tapes at all joints.</string>
+			<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator.</string>
+			<string>Take a suitable packing box and put the batch box in it.</string>
+			<string>Apply Brown tape, Stick Address of customer and apply Shrink rap tape finally.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>504</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Shipping Documents</string>
+		<key>time</key>
+		<string>30</string>
+		<key>points</key>
+		<string>60</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Make invoice, Packaging and Fed-X document.</string>
+			<string>Save tracking number.</string>
+			<string>Take a 5-5 prints of invoice and packaging documents.</string>
+			<string>Also take Address prints.</string>
+		</array>
+	</dict>
+</array>
+</plist>

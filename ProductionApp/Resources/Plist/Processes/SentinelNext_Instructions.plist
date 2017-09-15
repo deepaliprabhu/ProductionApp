@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>description</key>
+		<string>Take the separated PCB from Panel</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>description</key>
+		<string>Solder Power connector at p1 battery connector pin.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>description</key>
+		<string>Solder daughterboard connector at j3 pin and cut the extra stands of connectors to up to 2mm below PCB.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>description</key>
+		<string>Check each solder joint for dry solder, shorts and fix it.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>description</key>
+		<string>Check all component pin alignments and correct any bent pins.</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>6</string>
+		<key>description</key>
+		<string>Clean board/PCB to remove flux.</string>
+	</dict>
+</array>
+</plist>

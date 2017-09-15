@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>101</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Inward Inspection</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check with a magnifying glass or Microscope for short solder, dry solder, Not Solder, Not Component, Shift component, Wrong polarity .Make sure soldering is done fine.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>201</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Wire Soldering</string>
+		<key>time</key>
+		<string>2.5</string>
+		<key>points</key>
+		<string>5</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take BBQ probes and strip thin. solder it on board.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>202</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Probe Temperature Check</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take iPod and open Sentinel Appication and connect with unit.</string>
+			<string>Check the temperature of probe on app.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>301</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Wire Winding</string>
+		<key>time</key>
+		<string>1.5</string>
+		<key>points</key>
+		<string>3</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take the winding fixture.</string>
+			<string>Take tested ok probe for winding and wind probe.</string>
+			<string>Tie it.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>401</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Probe Temperature Check</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take iPod and open Sentinel Appication and connect with unit.</string>
+			<string>Check the temperature of probe on app.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>501</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Probe Packaging </string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Apply rubber band on Probe. Pack the tested probe in a clean transparent bag.</string>
+			<string>Put in a plastic bag and fold it well.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>502</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Final Packing</string>
+		<key>time</key>
+		<string>30</string>
+		<key>points</key>
+		<string>60</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take Batch Box and packed Probes.</string>
+			<string>Insert the packed Probes into the batch box.</string>
+			<string>Apply Brown tapes at all joints.</string>
+			<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator.</string>
+			<string>Take a suitable packing box and put the batch box in it.</string>
+			<string>Apply Brown tape, Stick Address of customer and apply Shrink rap tape finaly.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>503</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Shipping Documents</string>
+		<key>time</key>
+		<string>30</string>
+		<key>points</key>
+		<string>60</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Make invoice, Packaging and Fed-X document.</string>
+			<string>Save tracking number.</string>
+			<string>Take a 5-5 prints of invoice and packaging documents.</string>
+			<string>Also take Address prints. </string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>601</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Start the Machine</string>
+		<key>time</key>
+		<string>5</string>
+		<key>points</key>
+		<string>10</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Switch on  the Power button.</string>
+			<string>Switch on the Machine.</string>
+			<string>Switch on AC and Compressor.</string>
+			<string>Fill the mold material in the heating tank. </string>
+			<string>Put the machine on heating for one hour.</string>
+			<string>Make sure that pressure gauge is at 80 Pa </string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>602</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Fix the mold</string>
+		<key>time</key>
+		<string>35</string>
+		<key>points</key>
+		<string>70</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take a probe  Molding die disassemble it for changing insert.</string>
+			<string>Put the appropriate probe inside and assemble mold.</string>
+			<string>Fix the mold on molding machine.</string>
+			<string>Make sure that Gun and dies are aligned with die and molding machine.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>603</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Tightening Nut and Bolts</string>
+		<key>time</key>
+		<string>10</string>
+		<key>points</key>
+		<string>20</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Tighten all the Nut and bolts.</string>
+			<string>Make sure that mold is fixed properly.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>604</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Set Parameters</string>
+		<key>time</key>
+		<string>5</string>
+		<key>points</key>
+		<string>10</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Set the Tank temperature, Gun temperature, Cooling time, injection time, holding time, Eject time, Injection Speed.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>605</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Molding Probes</string>
+		<key>time</key>
+		<string>3</string>
+		<key>points</key>
+		<string>6</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take a tested ok probe.</string>
+			<string>Put the probe  in  mold for molding and start the molding by pressing two Green buttons.</string>
+			<string>According to the set time, molding die will open take out the molding Probe.</string>
+			<string>Make sure that molded probe  is in required shape.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>606</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Turn off machine</string>
+		<key>time</key>
+		<string>10</string>
+		<key>points</key>
+		<string>20</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Switch off the machine after molding process is complete.</string>
+			<string>Switch off AC and compressor.</string>
+			<string>Remove the die and keep it at appropriate place.</string>
+		</array>
+	</dict>
+</array>
+</plist>

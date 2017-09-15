@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>jobId</key>
+	<string>246-01</string>
+	<key>processes</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>PN1</string>
+			<key>name</key>
+			<string>ThruHole Assembly</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN2</string>
+			<key>name</key>
+			<string>Flashing</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN3</string>
+			<key>name</key>
+			<string>LED Testing</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN4</string>
+			<key>name</key>
+			<string>Probe Testing</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN5</string>
+			<key>name</key>
+			<string>Current Testing</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN6</string>
+			<key>name</key>
+			<string>Top Assembly</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN7</string>
+			<key>name</key>
+			<string>Bottom Assembly</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN8</string>
+			<key>name</key>
+			<string>Final Assembly</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Reconfiguration</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>PN10</string>
+			<key>name</key>
+			<string>Final Testing &amp; Packing</string>
+			<key>status</key>
+			<integer>0</integer>
+			<key>starttime</key>
+			<date>2015-10-07T05:40:52Z</date>
+			<key>stoptime</key>
+			<date>2015-10-07T05:41:11Z</date>
+		</dict>
+	</array>
+</dict>
+</plist>

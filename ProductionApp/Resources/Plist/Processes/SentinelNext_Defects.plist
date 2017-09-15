@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>0</string>
+		<key>text</key>
+		<string>Red LED not working</string>
+		<key>detailtext</key>
+		<string>Red LED not lighting when sensor is connected to USB Charger</string>
+		<key>type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>text</key>
+		<string>Green LED not visible</string>
+		<key>detailtext</key>
+		<string>Green LED light is dim from within the Top button</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>text</key>
+		<string>Scratches in Mould</string>
+		<key>detailtext</key>
+		<string>Scratches in Mould</string>
+		<key>type</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>

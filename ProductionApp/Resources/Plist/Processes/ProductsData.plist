@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Next</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>SentinelNext</string>
+		<key>Number</key>
+		<string>XTEMP-2000-0000</string>
+		<key>Id</key>
+		<string>SentinelNext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Next with Display</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>SentinelNextWithDisplay</string>
+		<key>Number</key>
+		<string>XTEMP-2001-0000</string>
+		<key>Id</key>
+		<string>SentinelNextWithDisplay</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Next RTD </string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>SentinelNextRTD</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>SentinelNextRTD</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Next RTD with Display</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>SentinelNextRTDWithDisplay</string>
+		<key>Number</key>
+		<string>XTEMP-2001-0005</string>
+		<key>Id</key>
+		<string>SentinelNextWithDisplayRTD</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>iCelsius Wireless</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>iCelsiusWireless</string>
+		<key>Number</key>
+		<string>IWIFI-1000-0001</string>
+		<key>Id</key>
+		<string>iCelsiusWireless</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GrillVille Elite</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>GrillVilleElite</string>
+		<key>Number</key>
+		<string>IWIFI-1000-0002</string>
+		<key>Id</key>
+		<string>iCelsiusWireless</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Receptor IP2</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>RCPT-1000-0008</string>
+		<key>Number</key>
+		<string>RCPT-1000-0008</string>
+		<key>Id</key>
+		<string>ReceptorIP2</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GrillVille EZ</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>RCPT-1001-0001</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>GrillVilleEZ</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GrillVille EZ Dual</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>RCPT-1001-0001</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>GrillVilleEZDual</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Inspector EZ</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>RCPT-1001-0001</string>
+		<key>Number</key>
+		<string>RCPT-1001-0004</string>
+		<key>Id</key>
+		<string>GrillVilleEZ</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Inspector HT</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>RCPT-1001-0001</string>
+		<key>Number</key>
+		<string>RCPT-1001-0005</string>
+		<key>Id</key>
+		<string>GrillVilleEZ</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>iCBlue Pro</string>
+		<key>Category</key>
+		<string>Bluetooth</string>
+		<key>Photo</key>
+		<string>ICBLUE-1000-0002</string>
+		<key>Number</key>
+		<string>ICBLUE-1000-0002</string>
+		<key>Id</key>
+		<string>iCelsiusBluePro</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless RH Connector</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0004-1</string>
+		<key>Number</key>
+		<string>IPROBE-4000-0004-1</string>
+		<key>Id</key>
+		<string>WirelessRHConnector</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless Pro Probe</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0004-2</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>WirelessPro</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless RH Probe</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0004-2</string>
+		<key>Number</key>
+		<string>IPROBE-4000-0004-2</string>
+		<key>Id</key>
+		<string>WirelessRHProbe</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless Dual BBQ Probe (Rev B)</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string> IPROBE-4000-0009</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>WirelessBBQDualRevB</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless Dual BBQ Probe </string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0006</string>
+		<key>Number</key>
+		<string>IPROBE-4000-0006</string>
+		<key>Id</key>
+		<string>WirelessBBQDualRevB</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wireless Dual BBQ Probe </string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0009</string>
+		<key>Number</key>
+		<string>IPROBE-4000-0009</string>
+		<key>Id</key>
+		<string>WirelessBBQDualRevB</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Dual Pro Probe</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0010</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>SentinelDualPro</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MQ212 Adapter</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0001-C</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>MQ212Adapter</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MQ212 Adapter Dual</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string>IPROBE-4000-0001-D</string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>MQ212AdapterDual</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sentinel Next RTD Adapter</string>
+		<key>Category</key>
+		<string>Wireless</string>
+		<key>Photo</key>
+		<string></string>
+		<key>Number</key>
+		<string>IPROBE-MQ212-0004</string>
+		<key>Id</key>
+		<string>MQ212Adapter</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Other</string>
+		<key>Category</key>
+		<string>Other</string>
+		<key>Photo</key>
+		<string></string>
+		<key>Number</key>
+		<string></string>
+		<key>Id</key>
+		<string>Other</string>
+	</dict>
+</array>
+</plist>

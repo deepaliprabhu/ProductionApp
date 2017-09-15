@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bluetooth</key>
+	<array>
+		<string>Receptor IP2</string>
+		<string>GrillVille EZ</string>
+		<string>GrillVille EZ Dual</string>
+	</array>
+	<key>Wireless</key>
+	<array>
+		<string>Sentinel Next with Display</string>
+		<string>Sentinel Next RTD with Display</string>
+		<string>Sentinel Next</string>
+		<string>Sentinel Next RTD</string>
+		<string>iCelsius Wireless</string>
+	</array>
+	<key>Wired</key>
+	<array/>
+</dict>
+</plist>

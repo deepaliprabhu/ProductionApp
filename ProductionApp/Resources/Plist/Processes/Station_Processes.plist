@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Station 1</string>
+		<key>Operator</key>
+		<string>Govind</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>101</string>
+				<key>Name</key>
+				<string>Inward Inspection</string>
+				<key>time</key>
+				<string>2</string>
+				<key>Instructions</key>
+				<array>
+					<string>Check with a magnifying camera for polarity.</string>
+					<string>Check well solder, short solder, dry solder.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>102</string>
+				<key>Name</key>
+				<string>Flashing</string>
+				<key>time</key>
+				<string>2</string>
+				<key>Instructions</key>
+				<array>
+					<string>Connect flashing fixture with a PC.</string>
+					<string>Select Sentinel flashing file  from the program folder.</string>
+					<string>Load PCB in fixture, select flashbat file from the Flashing folder and double click, wait for completion.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>103</string>
+				<key>Name</key>
+				<string>LED Blink Test by Connecting Battery</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take successfully flashed PCB, Hook battery and daughter board with PCB.</string>
+					<string>Ensure that LED  blink RED, GREEN, BLUE and YELLOW respectively. Blue, Red and Green On-Off LED and Yellow and Red is a charging LED. </string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>104</string>
+				<key>Name</key>
+				<string>Current Checking by Meter (By Connecting Power BAT)</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take above PCB and connect daughter board.</string>
+					<string>Connect the digital multimeter in series with battery in current mode. Make sure the probe is concerned.</string>
+					<string>Check Current when the unit is Off, When pressed the on button and completely started working current 0 MA, bellow 16 MA, bellow 40 MA respectively.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>105</string>
+				<key>Name</key>
+				<string>Probe Testing</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take LED  successfully tested PCB  connect battery and daughter board.</string>
+					<string>Turn on the unit and iPod</string>
+					<string>Connect this unit with iPod in Setting.</string>
+					<string>Open sentinel next app see on app. Be sure unit is connected.</string>
+					<string>Connect Dual Probe see temperature, Connect RH see temperature and humidity.</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 2</string>
+		<key>Operator</key>
+		<string>Archana</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>201</string>
+				<key>Name</key>
+				<string>Component Soldering</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take one PCB which is connected to the battery and hook daughter board.</string>
+					<string>Press On/Off button and test its blinks in Red, Green, and Blue Color.</string>
+					<string>Connect charging cable and check it charging LED will be Red.</string>
+					<string>Remove battery connect charging USB again and test the charging LED will Green.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>201</string>
+				<key>Name</key>
+				<string>Probe Soldering</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take one PCB which is connected to the battery and hook daughter board.</string>
+					<string>Press On/Off button and test its blinks in Red, Green, and Blue Color.</string>
+					<string>Connect charging cable and check it charging LED will be Red.</string>
+					<string>Remove battery connect charging USB again and test the charging LED will Green.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>201</string>
+				<key>Name</key>
+				<string>Daughter Board Testing Before Fitting</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take one PCB which is connected to the battery and hook daughter board.</string>
+					<string>Press On/Off button and test its blinks in Red, Green, and Blue Color.</string>
+					<string>Connect charging cable and check it charging LED will be Red.</string>
+					<string>Remove battery connect charging USB again and test the charging LED will Green.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>202</string>
+				<key>Name</key>
+				<string>Daughter Board Button Insert and Test</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take a top body face of a sentinel next with display with a labeled sticker.</string>
+					<string>Before inserting a button to remove the burr on the outer side of that button.</string>
+					<string>Insert two spacer button in a required position.</string>
+					<string>Fix the daughter board in six stand over the spacer button.</string>
+					<string>Test the buttons.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>203</string>
+				<key>Name</key>
+				<string>Daughter Board Fitting By Thermal Element</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Fit the rivetting tool with the solder gun.</string>
+					<string>Set temperature near about 300^C and melt the six stand where daughter board is placed.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>204</string>
+				<key>Name</key>
+				<string>Display Soldering</string>
+				<key>time</key>
+				<string>2</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take the top face of sentinel next which have display mounting. Solder a 4 wire of different length according to the documentation. Solder four wire (Tp10, Tp7, 2 of U7 Chips).</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 3</string>
+		<key>Operator</key>
+		<string>Ram</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>301</string>
+				<key>Name</key>
+				<string>Drill Repassing</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Enlarge the existing holes on top enclosure ,2 of diameter 7.8 mm and 1 of diameter 2- 5 mm.</string>
+					<string>This is done to remove thin layer above the holes of top enclosure.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>302</string>
+				<key>Name</key>
+				<string>Deburring</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Deburr the excess material which gets accumulated during drilling using blade and clean the surface using cloth.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>303</string>
+				<key>Name</key>
+				<string>Display Mounting</string>
+				<key>time</key>
+				<string>3</string>
+				<key>Instructions</key>
+				<array>
+					<string>Fix the LCD display using glue stick to the top enclosure by melting the glue stick using glue gun.Use the fixture to keep the display at proper position.</string>
+					<string>Fill the gap between display and top enclosure with white cement paste and level it.Fix it using fevicol.</string>
+					<string>Stick the label so that all switch symbols are aligned properly.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>304</string>
+				<key>Name</key>
+				<string>Mounting of Daughter Board</string>
+				<key>time</key>
+				<string>3</string>
+				<key>Instructions</key>
+				<array>
+					<string>Fix the daughter board using small Spacer buttons at appropriate switch positions.</string>
+					<string>Set temperature near about 300^C and Melt the column on which daughterboard is mounted to fix it.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>305</string>
+				<key>Name</key>
+				<string>Sticking Stickers and Foam on Bottom.</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string> Take bottom stickers and stick the stickers on the inner side of the bottom.</string>
+					<string>Stick the Foam tape of 6mm, 4mm. </string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>306</string>
+				<key>Name</key>
+				<string>Unit Assembly</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take a top of daughter board fix and bottom with sticked sticker and foams.</string>
+					<string>Connect the battery with PCB board, Fix a board in a top.</string>
+					<string>Fix the battery on bottom adjust its wire assemble Top and Bottom.</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 4</string>
+		<key>Operator</key>
+		<string>Pranali</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>401</string>
+				<key>Name</key>
+				<string>Unit print check</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Visually check the printing on the bottom. Be sure that Aginova logo, Company name being well printed.</string>
+					<string>Bottom should be scratch less, dent less (Ensure that the printing on backside of enclosure (top &amp; bottom) is readable)</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>402</string>
+				<key>Name</key>
+				<string>Unit fitting check</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Check visually separation between Top and Bottom should be parallel at all the side.</string>
+					<string>Press the four corners and see its perfectly locked.</string>
+					<string>Also observe the slot of probe and charger.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>403</string>
+				<key>Name</key>
+				<string>Unit application check</string>
+				<key>time</key>
+				<string>1.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Turn On sensor unit.</string>
+					<string>Take iPod, turn On iPod. Open the Sentinel next application.</string>
+					<string>Connect the unit with iPod by selecting sentinel SSID.</string>
+					<string>Check Battery status that voltage must be 3- 9 Volt to 4- 2 Volt on app.</string>
+					<string>Connect probe to unit see its temperature on app.</string>
+					<string>Put the probe sensor in hot water and observe the rise in temperature.</string>
+					<string>Connect RH or humidity sensor and observe its humidity on app.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>404</string>
+				<key>Name</key>
+				<string>Battery check</string>
+				<key>time</key>
+				<string>1.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Check if Red LED is blinking when charger is connected.</string>
+					<string>Check the battery status in App, battery status should be atleast 1/4th Of the total charge.</string>
+					<string>Check Battery status that voltage must be 3- 9 Volt to 4- 2 Volt on app.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>406</string>
+				<key>Name</key>
+				<string>Switch check</string>
+				<key>time</key>
+				<string>0.5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Check if Green LED is blinking when we turn on a unit.</string>
+					<string>Press the WiFi mode button LED will turn Green to Blue.</string>
+					<string>Check If Red LED is blinking an after 3-4 Sec. its stop blinking when you turn Off unit or when press On/Off button.</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 5</string>
+		<key>Operator</key>
+		<string>Raman</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>501</string>
+				<key>Name</key>
+				<string>Unit Cleaning</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Clean the unit with damp cloth to remove dust/fingerprints/other marks on enclosure.</string>
+					<string>Clean unit by using IPA solution</string>
+					<string>Be careful that printed (logo or Symbol) should not be removed while cleaning.</string>
+					<string>Put the unit in a bubble bag and hold it with rubber band &amp; place it in tray.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>502</string>
+				<key>Name</key>
+				<string>Unit Packing</string>
+				<key>time</key>
+				<string>1</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 6</string>
+		<key>Operator</key>
+		<string>Lalu</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>501</string>
+				<key>Name</key>
+				<string>Machine Start</string>
+				<key>time</key>
+				<string>5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Clean the unit with damp cloth to remove dust/fingerprints/other marks on enclosure.</string>
+					<string>Clean unit by using IPA solution</string>
+					<string>Be careful that printed (logo or Symbol) should not be removed while cleaning.</string>
+					<string>Put the unit in a bubble bag and hold it with rubber band &amp; place it in tray.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>502</string>
+				<key>Name</key>
+				<string>Fix the Mold</string>
+				<key>time</key>
+				<string>35</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>503</string>
+				<key>Name</key>
+				<string>Tightening Nut and Bolts</string>
+				<key>time</key>
+				<string>10</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>504</string>
+				<key>Name</key>
+				<string>Setting Parameters</string>
+				<key>time</key>
+				<string>5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>505</string>
+				<key>New item</key>
+				<string></string>
+				<key>Name</key>
+				<string>Molding Probes</string>
+				<key>time</key>
+				<string>3</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>506</string>
+				<key>Name</key>
+				<string>Turn Off Machine</string>
+				<key>time</key>
+				<string>10</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Station 7</string>
+		<key>Operator</key>
+		<string>Ram</string>
+		<key>Processes</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<string>501</string>
+				<key>Name</key>
+				<string>Machine Start</string>
+				<key>time</key>
+				<string>5</string>
+				<key>Instructions</key>
+				<array>
+					<string>Clean the unit with damp cloth to remove dust/fingerprints/other marks on enclosure.</string>
+					<string>Clean unit by using IPA solution</string>
+					<string>Be careful that printed (logo or Symbol) should not be removed while cleaning.</string>
+					<string>Put the unit in a bubble bag and hold it with rubber band &amp; place it in tray.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<string>502</string>
+				<key>Name</key>
+				<string>Fix the Mold</string>
+				<key>time</key>
+				<string>35</string>
+				<key>Instructions</key>
+				<array>
+					<string>Take cleaned unit, put in the plastic bag and fold it well.</string>
+					<string>Apply the rubber band on it.</string>
+					<string>Once the tray is filled with 25 items,take the lot &amp; put it into unit boxes with 45 units.</string>
+					<string>Apply  tape at all joints.</string>
+					<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator .</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

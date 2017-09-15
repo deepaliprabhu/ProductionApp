@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8D1AD67EA6C8A832350795277E5CE9BBD492B0A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D1AD67EA6C8A832350795277E5CE9BBD492B0A5" : 0,
+    "E81FBCFE506B3A77162C01B9BDFDA441C1691B3D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "79A06BA3-4D30-4A46-89D5-C837CE2BDC03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D1AD67EA6C8A832350795277E5CE9BBD492B0A5" : "ProductionApp\/",
+    "E81FBCFE506B3A77162C01B9BDFDA441C1691B3D" : "SentinelNew\/SentinelNext\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProductionApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProductionApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/23.236.54.250:11001\/opt\/git\/iOS\/ProductionApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D1AD67EA6C8A832350795277E5CE9BBD492B0A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/104.197.58.40:11001\/opt\/git\/iOS\/SentinelNext.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E81FBCFE506B3A77162C01B9BDFDA441C1691B3D"
+    }
+  ]
+}

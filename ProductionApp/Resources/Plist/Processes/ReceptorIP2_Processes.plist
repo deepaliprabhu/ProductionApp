@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>101</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Inward Inspection</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check with a magnifying glass or Microscope for short solder, dry solder, Not Solder, Not Component, Shift component, Wrong polarity .Make sure soldering is done fine.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>102</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Flashing</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Connect flashing fixture with computer system.</string>
+			<string>Select Receptor flashing file  from the program folder.</string>
+			<string>Load PCB in fixture, select flashbat file from the Flashing folder and double click, wait for completion of Flashing.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>103</string>
+		<key>stationId</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Current Testing</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Connect the digital multimeter in series with battery in current mode. Make sure the multimeter probe (Black- Ground And Red- mA) is connected.</string>
+			<string>Check Current - Select Multimeter on mA. When LED is Off-0mA, When LED is on below 2.84mA.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>201</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Battery Solder</string>
+		<key>time</key>
+		<string>0.5</string>
+		<key>points</key>
+		<string>1</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Stick the battery on PCB board.</string>
+			<string>Cut the wire of battery -2.5cm.</string>
+			<string>Strip the battery wire and thin it.</string>
+			<string>Solder the red wire to the positive and Solder the black wire to the negative</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>202</string>
+		<key>stationId</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Thermister (Sensor) solder</string>
+		<key>time</key>
+		<string>2.5</string>
+		<key>points</key>
+		<string>5</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Cut the thermistor in 13cm length.</string>
+			<string> Strip the thermistor in 5mm length.</string>
+			<string>Tinning the strip thermistor.</string>
+			<string>Thin the thermistor and solder it.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>301</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>LED Pipe sticking</string>
+		<key>time</key>
+		<string>3</string>
+		<key>points</key>
+		<string>6</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take  C shape LED , ON /OFF LED pipe ,  LED sticking fixture and Anabond.</string>
+			<string>Put C and Round LED pipe with board and stick by anabond</string>
+			<string>Take 0.5 mm spangle and cut into the two pieces and stick on charger USB connector. Stick inside the round LED pipe also.</string>
+			<string>Take Mseal, mix it well and stick around the charger connector by using hard blade. Ensure that there is no gap.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>302</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Potting</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take this PCB, potting gun, syringe, Paper, cloths.</string>
+			<string>Pot to LED with potting gun.</string>
+			<string>Ensure that potting material will not spread inside the connector.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>303</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Needdle cutting</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take  IP2 needles and hacksaw blade.</string>
+			<string>Cut the needle 12 cm length by using Hacksaw blade</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>304</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Handle Cleaning</string>
+		<key>time</key>
+		<string>1.5</string>
+		<key>points</key>
+		<string>3</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Clean the handle  by  compressor air ,followed by filling the handle to remove bur if any.</string>
+			<string>Clean the inner side of that handle by using cloth.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>305</string>
+		<key>stationId</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Handle Assembly</string>
+		<key>time</key>
+		<string>60</string>
+		<key>points</key>
+		<string>120</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take tested ok molded probe.</string>
+			<string>Check handle fitment and deburr it accordingly.</string>
+			<string>Pot the molded probe in the handle.</string>
+			<string>Insert LED pipe in the LED hole or ON/OFF hole.</string>
+			<string>Stick the Aginova Logos sticker.</string>
+			<string>Stick the cover plate and weld and grind it.</string>
+			<string>Take its  id and laser print on its cover plate.</string>
+			<string>once the id is printed, Polish the handle.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>401</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Probe Print Check</string>
+		<key>time</key>
+		<string>1.5</string>
+		<key>points</key>
+		<string>3</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Check its polishing.</string>
+			<string> verify on app if id printed on handle is accurate.</string>
+			<string>Check logo print.</string>
+			<string>Check if blue and  on/off Led (red) are blinking properly.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>402</string>
+		<key>stationId</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Probe application check</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Turn on Receptor.</string>
+			<string>Open the iCelsius app.</string>
+			<string> Establish connection of Receptor and iCelsius app.</string>
+			<string>Check temperature on app.</string>
+			<string>Check charging plug in USB charger Red LED should Blink.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>501</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Probe Cleaning</string>
+		<key>time</key>
+		<string>2</string>
+		<key>points</key>
+		<string>4</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Clean the Probe with damp cloth to remove dust/fingerprints/other marks on enclosure.</string>
+			<string>Remove the polishing dust from ON/OFF LED hole and Charging LED.</string>
+			<string>Make sure LEDs are not damaged while cleaning.</string>
+			<string>Put the Probe in a plastic tube &amp; place it in tray.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>502</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Probe Packing</string>
+		<key>time</key>
+		<string>1</string>
+		<key>points</key>
+		<string>2</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take cleaned Probe, put in the plastic tubes.</string>
+			<string>Apply  tape at all joints.</string>
+			<string>Using permanent marker write product name, quantity &amp; date of packing,initials of the operator.</string>
+			<string>Take a suitable packing box and put the batch box in it.</string>
+			<string>Apply Brown tape, Stick Address of customer and apply Shrink rap tape finaly.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>503</string>
+		<key>stationId</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Shipping Documents</string>
+		<key>time</key>
+		<string>30</string>
+		<key>points</key>
+		<string>60</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Make invoice, Packaging and Fed-X document.</string>
+			<string>Save tracking number.</string>
+			<string>Take a 5-5 prints of invoice and packaging documents.</string>
+			<string>Also take Address prints.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>601</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Mold  Machine Setup</string>
+		<key>time</key>
+		<string>5</string>
+		<key>points</key>
+		<string>10</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Turn ON Power button</string>
+			<string>Turn On Machine.</string>
+			<string>Turn ON Compressor and AC for cooling purpose.</string>
+			<string>Fill the mold material in the heating tank. </string>
+			<string>Put the machine on heating for one hour.</string>
+			<string>Make sure that pressure gauge is at 80 Pa </string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>602</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Mold  Fixing</string>
+		<key>time</key>
+		<string>35</string>
+		<key>points</key>
+		<string>70</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take a probe  Molding die, dissemble it for changing insert.</string>
+			<string>Put the appropriate probe inside and assemble mold</string>
+			<string>ix the mold on molding machine.</string>
+			<string>Make sure that Gun and dies are aligned with die and molding machine.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>603</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Tightening Nut and Bolts</string>
+		<key>time</key>
+		<string>10</string>
+		<key>points</key>
+		<string>20</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Tighten all the Nut and bolts.</string>
+			<string>Make sure that mold is fixed properly.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>604</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Set parameters</string>
+		<key>time</key>
+		<string>5</string>
+		<key>points</key>
+		<string>10</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Set the Tank temperature, Gun temperature, Cooling time, injection time, holding time, Eject time, Injection Speed.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>605</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Molding Receptor </string>
+		<key>time</key>
+		<string>3</string>
+		<key>points</key>
+		<string>6</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>Take a tested ok PCB.</string>
+			<string>Put the PCB in the mold for molding and start the molding by pressing two Green buttons.</string>
+			<string>According to the set time, molding die will open take out the molding Probe.</string>
+			<string>Make sure that molded probe  is in required shape.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>606</string>
+		<key>stationId</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Turn off machine</string>
+		<key>time</key>
+		<string>10</string>
+		<key>points</key>
+		<string>20</string>
+		<key>checklist</key>
+		<array>
+			<string>Job Okay</string>
+		</array>
+		<key>instructions</key>
+		<array>
+			<string>After all the molding probes turn OFF the machine.</string>
+			<string>Also Turn off the AC and Compressor.</string>
+			<string>Remove the die and keep it at appropriate place</string>
+		</array>
+	</dict>
+</array>
+</plist>

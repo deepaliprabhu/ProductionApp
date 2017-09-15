@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>iCelsius Wireless</string>
+	<string>Sentinel Next</string>
+	<string>Sentinel Next with Display</string>
+	<string>Sentinel Next RTD</string>
+	<string>Sentinel Next RTD with Display</string>
+	<string>Sentinel Next with Display and primary battery</string>
+	<string>Sentinel Next RTD with Display and primary battery</string>
+	<string>iCelsius Blue Pro</string>
+	<string>iCelsius Blue T/RH</string>
+	<string>iCelsius Lightning Pro</string>
+	<string>iCelsius BBQ Probe</string>
+	<string>CO2 Probe</string>
+	<string>Dual BBQ Probe</string>
+	<string>Dual Pro Probe</string>
+	<string>Dual Pro Probe + RH</string>
+	<string>Wireless BBQ Probe (Single) (Rev B)</string>
+	<string>CRC Probe</string>
+	<string>Wireless Pro Probe</string>
+	<string>Wireless RH Connector</string>
+	<string>Wireless RH (Probe)</string>
+	<string>IP3 Lightning Probe</string>
+	<string>BBQ Clamp</string>
+	<string>iCelsius User Guide</string>
+	<string>iCelsius RH(Lightning)</string>
+	<string>iCelsius BT Lightning Probe</string>
+	<string>XCorr PCB</string>
+	<string>RTD Connector</string>
+	<string>Exchangeable Single Probe</string>
+	<string>Exchangeable Dual Probe</string>
+	<string>Exchangeable Dual RH Probe</string>
+	<string>Receptor</string>
+	<string>Receptor IP2</string>
+	<string>iChef Go</string>
+	<string>Ichef Elite</string>
+	<string>Receptor Pro</string>
+	<string>MQ212 Adaptor</string>
+	<string>MQ212 Adaptor Dual</string>
+	<string>10k Octsens MQ212 Probe</string>
+	<string>Next 10k Probe</string>
+	<string>10k Octsens MQ212 Probe, Single</string>
+	<string>Wireless IR Probe</string>
+	<string>iCelsius Wetness</string>
+	<string>I Celsius Wireless Dual Pro+RH</string>
+	<string>Sentinel Next Pressure 500Pa (Probe) </string>
+	<string>Sentinel Next Pressure 25Pa (Sensor) </string>
+	<string>Sentinel Next Pressure 500Pa (Sensor) </string>
+	<string>Sentinel Next Pressure 25Pa (Probe) </string>
+	<string>Sentinel Next CO2, Ambient (Probe)</string>
+	<string>Sentinel Next CO2 (Sensor)</string>
+	<string>Sentinel Next CO2, 30% Probe</string>
+	<string>iCelsius Wireless IP3</string>
+	<string>Wireless IP2 Probe</string>
+	<string>Wireless IP1 Probe</string>
+	<string>iCelsius RH (Lt)</string>
+	<string>iCelsius BBQ rev B (Lt)</string>
+	<string>16 Pin MAS Probe</string>
+	<string>8 pin MAS Probe</string>
+	<string>CAPS with Rezolt RZ707</string>
+	<string>Probe length- 10cm (PVC)</string>
+	<string>Probe length- 10cm (SS)</string>
+	<string>Probe length- 20cm, (PVC)</string>
+	<string>Probe length- 20cm, (SS)</string>
+	<string>Probe length- 30cm (PVC)</string>
+	<string>Probe length- 30cm (SS)</string>
+	<string>Corrosion Probe</string>
+	<string>CRC Probe (5 element, 1m cable, Aluminium MAS)</string>
+	<string>CRC Probe (5 element, 1m cable, Steel MAS)</string>
+	<string>ER Probe</string>
+	<string>MAS Probe, with coupon</string>
+	<string>GrillVille EZ</string>
+	<string>GrillVille EZ Dual</string>
+</array>
+</plist>
