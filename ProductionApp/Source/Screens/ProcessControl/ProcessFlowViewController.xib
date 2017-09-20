@@ -37,7 +37,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="beZ-Wy-wMb">
-                    <rect key="frame" x="0.0" y="197" width="320" height="335"/>
+                    <rect key="frame" x="0.0" y="213" width="320" height="319"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
@@ -56,7 +56,7 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b7-my-zAO">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b7-my-zAO">
                             <rect key="frame" x="108" y="5" width="53" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -81,18 +81,9 @@
                                 <action selector="statusButtonPressed:" destination="-1" eventType="touchUpInside" id="qHY-o3-0qa"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdf-Hb-NzS">
-                            <rect key="frame" x="276" y="3" width="35" height="35"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                            <inset key="imageEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
-                            <state key="normal" image="edit.png"/>
-                            <connections>
-                                <action selector="editButtonPressed:" destination="-1" eventType="touchUpInside" id="CRR-Mk-Ghr"/>
-                            </connections>
-                        </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Comments:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ynl-4d-BR2">
                             <rect key="frame" x="3" y="97" width="313" height="47"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -171,7 +162,7 @@
                     </connections>
                 </button>
                 <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzh-PY-XfY">
-                    <rect key="frame" x="-1" y="213" width="320" height="355"/>
+                    <rect key="frame" x="-1" y="61" width="320" height="507"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="0.84728250390000004" colorSpace="calibratedWhite"/>
                 </view>
@@ -379,6 +370,5 @@
     <resources>
         <image name="background.png" width="751" height="1334"/>
         <image name="downArrow.png" width="32" height="24"/>
-        <image name="edit.png" width="50" height="50"/>
     </resources>
 </document>

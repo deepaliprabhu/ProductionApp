@@ -10,6 +10,9 @@
 
 @interface ProductSelectionViewCell : UITableViewCell {
     IBOutlet UILabel *_nameLabel;
+    IBOutlet UILabel *_updatedLabel;
+    IBOutlet UILabel *_statusLabel;
+    IBOutlet UILabel *_versionLabel;
     IBOutlet UIImageView *_photoImageView;
 }
 - (void)setCellData:(NSMutableDictionary*)productData;

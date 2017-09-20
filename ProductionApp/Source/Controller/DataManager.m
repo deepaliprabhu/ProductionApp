@@ -448,6 +448,7 @@ static DataManager *_sharedInstance = nil;
 }
 
 - (void)setCommonProcesses:(NSMutableArray*)commonProcessesArray_ {
+    editedProcessesArray = [[NSMutableArray alloc] init];
     commonProcessesArray = commonProcessesArray_;
     __notifyObj(kNotificationCommonProcessesReceived, nil);
 }

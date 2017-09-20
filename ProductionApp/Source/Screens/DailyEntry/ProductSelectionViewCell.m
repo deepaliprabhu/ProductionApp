@@ -23,6 +23,9 @@
 
 - (void)setCellData:(NSMutableDictionary*)productData {
     _nameLabel.text = productData[@"Name"];
+    _statusLabel.text = productData[@"Status"];
+    _updatedLabel.text = productData[@"last updated"];
+    _versionLabel.text = productData[@"last version"];
     _photoImageView.image = [UIImage imageNamed:productData[@"Product Number"]];
 }
 

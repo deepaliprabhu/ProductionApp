@@ -31,20 +31,26 @@
     if (!commonProcessesArray) {
         [self getProcessList];
     }
-    [self getProcessFlow];
+    else {
+        [self setupDropDownList];
+        [self getProcessFlow];
+    }
     self.title = product[@"Name"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Save"
                                                                               style:UIBarButtonItemStylePlain
                                                                              target:self
                                                                              action:@selector(rightButtonPressed)];
     saveOptionsArray = [NSMutableArray arrayWithObjects:@"Save in Current Version", @"Save as New Version",nil];
-    statusOptionsArray = [NSMutableArray arrayWithObjects:@"OPEN", @"APPROVED",nil];
+    statusOptionsArray = [NSMutableArray arrayWithObjects:@"OPEN", @"WAITING", @"APPROVED",nil];
     
     originatorArray = [NSMutableArray arrayWithObjects:@"Arvind", @"Sumit",nil];
-    approverArray = [NSMutableArray arrayWithObjects:@"Arvind", @"Matt", @"Vally",nil];
+    approverArray = [NSMutableArray arrayWithObjects:@"Mason", @"Lausanne", @"Vally",nil];
     _statusButton.layer.cornerRadius = 4.0f;
     [_pickOriginatorButton setTitle:@"Arvind" forState:UIControlStateNormal];
-    [_pickApproverButton setTitle:@"Vally" forState:UIControlStateNormal];
+    [_pickApproverButton setTitle:@"Mason" forState:UIControlStateNormal];
+    if (![product[@"last version"] isEqualToString:@""]) {
+        _versionLabel.text = product[@"last version"];
+    }
 }
 
 - (void)rightButtonPressed {
@@ -164,7 +170,7 @@
     [self.navigationController.view hideActivityViewWithAfterDelay:60];
     ConnectionManager *connectionManager = [ConnectionManager new];
     connectionManager.delegate = self;
-    [connectionManager makeRequest:[NSString stringWithFormat:@"http://aginova.info/aginova/json/processes.php?call=getProcessFlow&process_ctrl_id=%@-%@",product[@"Product Number"], @"PC1"] withTag:3];
+    [connectionManager makeRequest:[NSString stringWithFormat:@"http://aginova.info/aginova/json/processes.php?call=getProcessFlow&process_ctrl_id=%@-%@-%@",product[@"Product Number"], @"PC1",_versionLabel.text] withTag:3];
 }
 
 - (void)deleteProcessFromListAtIndex:(int)index {
@@ -188,18 +194,19 @@
         if (anIndex == 0) {
             NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
             [dateFormat setDateFormat:@"yyyy-dd-MM"];
-            NSMutableDictionary *processData = [[NSMutableDictionary alloc] initWithObjectsAndKeys:[NSString stringWithFormat:@"%@-%@",product[@"Product Number"],@"PC1"],@"process_ctrl_id",[NSString stringWithFormat:@"%@_%@",product[@"Name"], @"PC1"], @"process_ctrl_name",product[@"Product Id"],@"ProductId",_versionLabel.text, @"VersionId", _statusButton.titleLabel.text, @"Status", _pickOriginatorButton.titleLabel.text, @"Originator", _pickApproverButton.titleLabel.text, @"Approver", _commentsTextView.text,@"Comments", @"", @"Description",[dateFormat stringFromDate:[NSDate date]], @"Timestamp" , nil];
+            NSMutableDictionary *processData = [[NSMutableDictionary alloc] initWithObjectsAndKeys:[NSString stringWithFormat:@"%@-%@-%@",product[@"Product Number"],@"PC1", _versionLabel.text],@"process_ctrl_id",[NSString stringWithFormat:@"%@_%@_%@",product[@"Name"], @"PC1", _versionLabel.text], @"process_ctrl_name",product[@"Product Id"],@"ProductId",_versionLabel.text, @"VersionId", _statusButton.titleLabel.text, @"Status", _pickOriginatorButton.titleLabel.text, @"Originator", _pickApproverButton.titleLabel.text, @"Approver", _commentsTextView.text,@"Comments", @"", @"Description",[dateFormat stringFromDate:[NSDate date]], @"Timestamp" , nil];
             [__DataManager syncProcesses:selectedProcessesArray withProcessData:processData];
         }
         else {
             _versionEntryView.layer.borderColor = [UIColor orangeColor].CGColor;
             _versionEntryView.layer.borderWidth = 1.0f;
             _versionEntryView.frame = CGRectMake(self.view.frame.size.width/2-_versionEntryView.frame.size.width/2, self.view.frame.size.height/2-_versionEntryView.frame.size.height/2, _versionEntryView.frame.size.width, _versionEntryView.frame.size.height);
+            _versionTF.text = [self incrementedVersion];
             [self.view addSubview:_versionEntryView];
         }
     }
     else {
-        if (anIndex == 0) {
+        if (anIndex == 0|| anIndex == 0) {
             [_statusButton setBackgroundColor:[UIColor grayColor]];
         }
         else {
@@ -210,11 +217,21 @@
 
 }
 
+- (NSString*)incrementedVersion {
+    NSString *version = _versionLabel.text;
+    NSArray *strings = [version componentsSeparatedByString:@"."];
+    int number = [strings[1] intValue];
+    version = [strings[0] stringByAppendingString:@"."];
+    version = [version stringByAppendingString:[NSString stringWithFormat:@"%d",++number]];
+    return version;
+}
+
 - (IBAction)saveVersionPressed:(id)sender {
     [_versionEntryView removeFromSuperview];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-dd-MM"];
-    NSMutableDictionary *processData = [[NSMutableDictionary alloc] initWithObjectsAndKeys:[NSString stringWithFormat:@"%@-%@",product[@"Product Number"],@"PC1"],@"process_ctrl_id",[NSString stringWithFormat:@"%@_%@",product[@"Name"], @"PC1"], @"process_ctrl_name",product[@"Product Id"],@"ProductId",_versionLabel.text, @"VersionId", _statusButton.titleLabel.text, @"Status", _pickOriginatorButton.titleLabel.text, @"Originator", _pickApproverButton.titleLabel.text, @"Approver", _commentsTextView.text,@"Comments", @"", @"Description",[dateFormat stringFromDate:[NSDate date]], @"Timestamp" , nil];
+    NSMutableDictionary *processData = [[NSMutableDictionary alloc] initWithObjectsAndKeys:[NSString stringWithFormat:@"%@-%@-%@",product[@"Product Number"],@"PC1",_versionTF.text],@"process_ctrl_id",[NSString stringWithFormat:@"%@_%@_%@",product[@"Name"], @"PC1", _versionTF.text], @"process_ctrl_name",product[@"Product Id"],@"ProductId",_versionTF.text, @"VersionId", @"Active", @"Status", _pickOriginatorButton.titleLabel.text, @"Originator", _pickApproverButton.titleLabel.text, @"Approver", _commentsTextView.text,@"Comments", @"", @"Description",[dateFormat stringFromDate:[NSDate date]], @"Timestamp" , nil];
+    _versionLabel.text = _versionTF.text;
     [__DataManager syncProcesses:selectedProcessesArray withProcessData:processData];
 }
 
@@ -226,9 +243,9 @@
     NSMutableDictionary *lastProcess = commonProcessesArray[commonProcessesArray.count-1];
     [_addProcessView removeFromSuperview];
     NSMutableDictionary *processDict = [[NSMutableDictionary alloc] init];
-    [processDict setObject:[NSString stringWithFormat:@"%d",selectedStation] forKey:@"StationId"];
+    [processDict setObject:[NSString stringWithFormat:@"S%d",selectedStation] forKey:@"StationId"];
     [processDict setObject:_processNameTF.text forKey:@"ProcessName"];
-    [processDict setObject:[NSString stringWithFormat:@"%d",[lastProcess[@"processno"] intValue]+1] forKey:@"ProcessNo"];
+    [processDict setObject:[NSString stringWithFormat:@"P%d",[lastProcess[@"processno"] intValue]+1] forKey:@"ProcessNo"];
     [self addProcessToList:processDict];
 }
 
@@ -262,7 +279,7 @@
        // [processesArray addObject:ArryData[i]];
         [self getProcessWithName:ArryData[i]];
     }
-    [processesArray addObjectsFromArray:selectedProcessesArray];
+   // [processesArray addObjectsFromArray:selectedProcessesArray];
     [_tableView reloadData];
     NSLog(@"selected Processes Array = %@",selectedProcessesArray);
 
@@ -271,19 +288,22 @@
 
 - (void)getProcessWithName:(NSString*)processName {
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"yyyy-dd-MM"];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
     for (int i=0; i < commonProcessesArray.count; ++i) {
         NSMutableDictionary *processData = commonProcessesArray[i];
         if ([processData[@"processname"] isEqualToString:processName]) {
             NSMutableDictionary *selectedProcessData = [[NSMutableDictionary alloc] init];
             [selectedProcessData setObject:processData[@"processno"] forKey:@"processno"];
             [selectedProcessData setObject:[NSString stringWithFormat:@"%lu",selectedProcessesArray.count+1] forKey:@"stepid"];
-            [selectedProcessData setObject:@"A" forKey:@"operator"];
+            [selectedProcessData setObject:@"A" forKey:@"operator1"];
+            [selectedProcessData setObject:@"A" forKey:@"operator2"];
+            [selectedProcessData setObject:@"A" forKey:@"operator3"];
              [selectedProcessData setObject:@"1" forKey:@"time"];
              [selectedProcessData setObject:@"1" forKey:@"points"];
             [selectedProcessData setObject:[dateFormat stringFromDate:[NSDate date]] forKey:@"timestamp"];
             [selectedProcessData setObject:@"Test" forKey:@"comments"];
-            [selectedProcessesArray addObject:processData];
+            [selectedProcessesArray addObject:selectedProcessData];
+            [processesArray addObject:processData];
         }
     }
 }
@@ -291,14 +311,16 @@
 - (void)getProcessWithNo:(int)processNo {
    // NSLog(@"common processes:%@",commonProcessesArray);
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"yyyy-dd-MM"];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
     for (int i=0; i < commonProcessesArray.count; ++i) {
         NSMutableDictionary *processData = commonProcessesArray[i];
         if ([processData[@"processno"] intValue] == processNo) {
             NSMutableDictionary *selectedProcessData = [[NSMutableDictionary alloc] init];
             [selectedProcessData setObject:processData[@"processno"] forKey:@"processno"];
             [selectedProcessData setObject:[NSString stringWithFormat:@"%lu",selectedProcessesArray.count+1] forKey:@"stepid"];
-            [selectedProcessData setObject:@"A" forKey:@"operator"];
+            [selectedProcessData setObject:@"A" forKey:@"operator1"];
+            [selectedProcessData setObject:@"A" forKey:@"operator2"];
+            [selectedProcessData setObject:@"A" forKey:@"operator3"];
             [selectedProcessData setObject:@"1" forKey:@"time"];
             [selectedProcessData setObject:@"1" forKey:@"points"];
             [selectedProcessData setObject:[dateFormat stringFromDate:[NSDate date]] forKey:@"timestamp"];
@@ -344,7 +366,7 @@
 - (void) parseJsonResponse:(NSData*)jsonData withTag:(int)tag{
     [self.navigationController.view hideActivityView];
     if (tag == 1) {
-        commonProcessesArray = [[NSMutableArray alloc] init];
+        //commonProcessesArray = [[NSMutableArray alloc] init];
     }
     if(tag == 4){
         [self getProcessFlow];

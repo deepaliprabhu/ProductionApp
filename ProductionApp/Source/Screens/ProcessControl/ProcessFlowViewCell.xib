@@ -33,7 +33,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdM-p2-YI9">
                         <rect key="frame" x="0.0" y="11" width="29" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                         <color key="textColor" red="0.95686274510000002" green="0.29411764709999999" blue="0.1529411765" alpha="0.81072223300000001" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>

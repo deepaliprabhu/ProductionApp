@@ -13,6 +13,8 @@
 @interface CommonProcessListViewCell : UITableViewCell {
     IBOutlet UILabel *_processNameLabel;
     IBOutlet UILabel *_stationLabel;
+    IBOutlet UILabel *_operatorLabel;
+    IBOutlet UILabel *_timeLabel;
     
     int index;
 }

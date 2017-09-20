@@ -171,6 +171,30 @@
     
 }
 
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+    
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    [self filterProductList];
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    [self filterSearchList];
+}
+
+- (void)filterSearchList {
+    NSMutableArray *searchList = filteredArray;
+    filteredArray = [[NSMutableArray alloc] init];
+    for (int i=0; i < searchList.count; ++i) {
+        NSMutableDictionary *productData = searchList[i];
+        if ([[productData[@"Name"] lowercaseString] containsString:[_searchBar.text lowercaseString]]) {
+            [filteredArray addObject:productData];
+        }
+    }
+    [_tableView reloadData];
+}
+
 
 /*
 #pragma mark - Navigation

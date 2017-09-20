@@ -10,8 +10,9 @@
 #import "DZNSegmentedControl.h"
 
 
-@interface ProductSelectionViewController : UIViewController<UITableViewDelegate,UITableViewDataSource> {
+@interface ProductSelectionViewController : UIViewController<UITableViewDelegate,UITableViewDataSource, UISearchBarDelegate> {
     IBOutlet UITableView *_tableView;
+    IBOutlet UISearchBar *_searchBar;
     
     DZNSegmentedControl *control;
 

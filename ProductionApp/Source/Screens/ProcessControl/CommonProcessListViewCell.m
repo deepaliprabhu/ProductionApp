@@ -25,6 +25,8 @@
     index = index_;
     _processNameLabel.text = [NSString stringWithFormat:@"%@ - %@",cellData[@"processno"], cellData[@"processname"]];
     _stationLabel.text = cellData[@"stationid"];
+    _operatorLabel.text = cellData[@"op1"];
+    _timeLabel.text = cellData[@"time"];
 }
 
 - (IBAction)editPressed:(id)sender {
@@ -33,6 +35,10 @@
 
 - (IBAction)deletePressed:(id)sender {
     [_delegate deleteProcessAtIndex:index];
+}
+
+- (IBAction)instructionsPressed:(id)sender {
+   // [_delegate deleteProcessAtIndex:index];
 }
 
 @end
