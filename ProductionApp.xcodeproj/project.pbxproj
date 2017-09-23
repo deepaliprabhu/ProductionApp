@@ -602,6 +602,7 @@
 		9F0A6CFE1E83964400035F7A /* RMADashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMADashboardViewController.h; sourceTree = "<group>"; };
 		9F0A6CFF1E83964400035F7A /* RMADashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMADashboardViewController.m; sourceTree = "<group>"; };
 		9F0A6D001E83964400035F7A /* RMADashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMADashboardViewController.xib; sourceTree = "<group>"; };
+		9F1055891F761ED3000ED9B4 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		9F105D3B1CBF6C9C0067105D /* RunHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHistoryViewController.h; sourceTree = "<group>"; };
 		9F105D3C1CBF6C9C0067105D /* RunHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHistoryViewController.m; sourceTree = "<group>"; };
 		9F105D3D1CBF6C9C0067105D /* RunHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHistoryViewController.xib; sourceTree = "<group>"; };
@@ -1287,7 +1288,6 @@
 		9FE4817D1B6F36260006F13C /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
 		9FE4817F1B6F37200006F13C /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
 		9FE481801B6F37200006F13C /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
-		9FE481841B6F3B480006F13C /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = ../../../../SentinelNew/SentinelNext/SentinelNext/Classes/Headers/Defines.h; sourceTree = "<group>"; };
 		9FE481851B6F3ECB0006F13C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		9FE481861B6F3ECB0006F13C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		9FE481881B6F42A00006F13C /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
@@ -3052,6 +3052,7 @@
 		9FE481821B6F3B100006F13C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9F1055891F761ED3000ED9B4 /* Defines.h */,
 				9FB89F1B1C196110004BCA06 /* DefectsReport.xib */,
 				9F391FB91CF6F3B4001F33BE /* WSRReport.xib */,
 				9F619ED21F18D48C0079EEFE /* ChecklistReport.xib */,
@@ -3060,7 +3061,6 @@
 				9F33EF581BDF779800D6F1D4 /* PDFRenderer.h */,
 				9F33EF591BDF779800D6F1D4 /* PDFRenderer.m */,
 				9FE4818B1B6F55CD0006F13C /* Constants.h */,
-				9FE481841B6F3B480006F13C /* Defines.h */,
 				9FB90B9A1C47C5E8007BC874 /* Utilities.h */,
 				9FB90B9B1C47C5E8007BC874 /* Utilities.m */,
 			);
